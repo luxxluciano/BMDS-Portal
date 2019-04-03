@@ -1,4 +1,6 @@
 # BMDS-Portal
 
 Portal BMDS
-asdjkcbhkjvbqwejbnfvjk
+Consegui fazer as primeiras alterações de git push pul etc
+
+Feliz da Vida

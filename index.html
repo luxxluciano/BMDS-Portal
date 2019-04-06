@@ -29,29 +29,38 @@
 
     <section id="login">
 
-        <form name="login" action="enviado.html" method="post" id="formulario">
+        <form name="login" action="enviado.html" method="GET" id="formulario">
 
             <div class="box">
-                <h1>Faça seu cadastro</h1>
+                <h2>Faça seu cadastro</h2>
 
-                <label>
+            <!-- campo label for="valor" conecta label ao input
+        pelo <input id="valor do for"> -->
+                <label for="campo1">
                     <span>nome</span>
                     <br>
-                    <input type="text" class="input_text" name="nome" id="name" />
+                    <input type="text" class="input_text" name="nome" id="campo1" />
+                </label>
+                <br> <br>
+                
+
+                <label>
+
+                    <span>genero</span>
+                    <br>
+
+                    <input type="radio" id="fem" name="gender" value="feminino" checked>
+                    <label for="fem">feminino</label>
+
+                    <input type="radio" id="masc" name="gender" value="masculino">
+                    <label for="masc">masculino</label>
+
+                    <input type="radio" id="outro" name="gender" value="outro">
+                    <label for="outro">outro</label>
+
                 </label>
                 <br> <br>
 
-                <label>
-                        <span>genero</span>
-                        <br>
-                        <input type="radio" id="fem" name="gender" value="feminino" checked>
-                        <label for="feminino">feminino</label>
-                        <input type="radio" id="masc" name="gender" value="masculino">
-                        <label for="masculino">masculino</label>
-                        <input type="radio" id="outro" name="gender" value="outro">
-                        <label for="feminino">outro</label>
-                    </label>
-                    <br> <br>
 
                 <label>
                     <span>e-mail</span>
@@ -60,12 +69,14 @@
                 </label>
                 <br> <br>
 
+
                 <label>
-                        <span>senha</span>
-                            <br>
-                            <input type="password" class="input_text" name="senha" id="passwd" />
-                        </label>
-                        <br> <br>
+                    <span>senha</span>
+                    <br>
+                    <input type="password" class="input_text" name="senha" id="passwd" />
+                </label>
+                <br> <br>
+
 
                 <label>
                     <span>assunto</span>
@@ -73,17 +84,20 @@
                     <input type="text" class="input_text" name="assunto" id="subject" />
                 </label>
                 <br> <br>
-                
+
+
                 <label>
                     <span>mensagem</span>
                     <br>
                     <textarea class="message" name="feedback" id="feedback" cols="35" rows="8"></textarea>
                     <br>
-                    <input type="button" class="button" value="Enviar" />
+                    <input type="submit" class="button" value="Enviar" />
                 </label>
             </div>
 
     </section>
+    <br> <br>
+
 
     <section id="quemsomos">
         <h2>Quem©Somos</h2>
@@ -94,7 +108,6 @@
             post-production |
             vjing</p>
     </section>
-
 
     <section id="post">
         <h2>BMDS®Post</h2>
@@ -129,8 +142,6 @@
         </aside>
 
     </footer>
-
-
 
 </body>
 

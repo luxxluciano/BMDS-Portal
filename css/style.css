@@ -30,7 +30,7 @@
 	/* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
 	flex: 1;
 	margin: 0px;
-	background: black;
+	background: rgb(255, 255, 255);
 	text-align: center;
 	font-size: 22px;
 }
@@ -43,9 +43,55 @@ h1 {
 }
 
 body {
-    background: black;
+    background: rgb(255, 255, 255);
 
-    font-family: 'VT323', monospace;
+    font-family: Verdana,'VT323', monospace;
     font-size: 22px;
 	color: rgb(180, 180, 180);
 }
+div.gallery {
+	border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+	border: 1px solid #777;
+  }
+  
+  div.gallery img {
+	width: 100%;
+	height: auto;
+  }
+  
+  div.desc {
+	padding: 15px;
+	text-align: center;
+  }
+  
+  * {
+	box-sizing: border-box;
+  }
+  
+  .responsive {
+	padding: 0 6px;
+	float: left;
+	width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+	.responsive {
+	  width: 49.99999%;
+	  margin: 6px 0;
+	}
+  }
+  
+  @media only screen and (max-width: 500px) {
+	.responsive {
+	  width: 100%;
+	}
+  }
+  
+  .clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+  }

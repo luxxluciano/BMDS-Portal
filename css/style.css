@@ -49,6 +49,25 @@ body {
     font-size: 22px;
 	color: rgb(180, 180, 180);
 }
+
+
+div.geral{
+
+align-content: center;
+
+
+}
+
+div.capa{
+align-content: center;
+
+}
+
+
+
+
+
+
 div.gallery {
 	border: 1px solid #ccc;
   }

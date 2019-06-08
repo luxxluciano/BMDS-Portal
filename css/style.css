@@ -32,7 +32,8 @@
 	margin: 0px;
 	background: rgb(255, 255, 255);
 	text-align: center;
-	font-size: 22px;
+	font-size: 14px;
+	text-decoration: none;
 }
 
 h1 {
@@ -113,4 +114,4 @@ div.gallery {
 	content: "";
 	display: table;
 	clear: both;
-  }
+	}
